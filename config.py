@@ -39,22 +39,20 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hᴀɪ {} 👋,
-Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
-Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
-Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
-Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+    START_TXT = """<b>Hey {} 👋,</b>
+This is an Advanced and Powerful Rename Bot.
+
+Using This Bot You Can Rename & Change Thumbnail Of Your File, You can Also Convert Video to File & File To Video.
+This Bot Also Support Custom Thumbnail And Caption.
 """
 
     ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Snowball_Official>𝓢𝓝𝓞𝓦𝓑𝓐𝓛𝓛</a>
-├👑 Instagram : <a href=https://www.instagram.com/ritesh6_>C-Insta</a> 
-├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Kdramaland>K-Lᴀɴᴅ</a>
-├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
-├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
-├🌀 ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>
+├🤖 Bot Name : {}
+├👨‍💻 Developer : <a href=https://t.me/Vivek2K6>ᴠ 1 ᴠ ᴇ ᴋ</a>
+├📕 Library : <a href=https://github.com/pyrogram>Pyrogram</a>
+├✏️ Language : <a href=https://www.python.org>Python 3</a>
+├💾 Database: <a href=https://cloud.mongodb.com>Mongo DB</a>
+├🌀 Host : <a href=https://dashboard.heroku.com>Heroku</a>
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -76,25 +74,21 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-
-
-<b>⦿ Developer:</b> <a href=https://t.me/Snowball_Official>ѕησωвαℓℓ ❄️</a>
 """
 
     SEND_METADATA = """
-❪ SET CUSTOM METADATA ❫
+> SET CUSTOM METADATA
 
-☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
+• For Example:-
 
 ◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Kdramaland" -metadata author="@Snowball_Official" -metadata:s:s title="Subtitled By :- @Kdramaland" -metadata:s:a title="By :- @Kdramaland" -metadata:s:v title="By:- @Snowball_Official" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Snowball_Official
+📥 For Help: @Oddchats
 """
 
     PROGRESS_BAR = """<b>\n
-╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
-┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
-┣⪼ ⏳️ Dᴏɴᴇ : {0}%
-┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
-┣⪼ ⏰️ Eᴛᴀ: {4}
-╰━━━━━━━━━━━━━━━➣ </b>"""
+📊 Progress Bar:
+🗃️ Sɪᴢᴇ: {1} | {2}
+⏳️ Dᴏɴᴇ : {0}%
+🚀 Sᴩᴇᴇᴅ: {3}/s
+⏰️ Eᴛᴀ: {4}</b>"""
