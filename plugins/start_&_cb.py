@@ -18,7 +18,7 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Updates, url='https://t.me/oddprojects'),
+            '⛅ Updates', url='https://t.me/oddprojects'),
         InlineKeyboardButton(
             '🌨️ Support', url='https://t.me/OddCHats')
     ], [
