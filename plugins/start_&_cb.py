@@ -65,9 +65,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Updates', url='https://t.me/Kdramaland'),
+                    '⛅ Updates', url='https://t.me/oddprojects'),
                 InlineKeyboardButton(
-                    '🌨️ Support', url='https://t.me/SnowDevs')
+                    '🌨️ Support', url='https://t.me/oddchats')
             ], [
                 InlineKeyboardButton('❄️ About', callback_data='about'),
                 InlineKeyboardButton('❗ Help', callback_data='help')
