@@ -40,6 +40,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """<b>Hey {} 👋,</b>
+
 This is an Advanced and Powerful Rename Bot.
 
 Using This Bot You Can Rename & Change Thumbnail Of Your File, You can Also Convert Video to File & File To Video.
